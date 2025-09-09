@@ -1,0 +1,9 @@
+# Format: action type value
+# action: block or allow
+# type: ip or port
+# Example rules:
+
+block ip 192.168.1.10
+allow ip 192.168.1.1
+block port 22
+allow port 80
